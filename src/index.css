@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary (derived tints/shades around #CC312D) */
+    --color-primary-50: 252, 245, 244;  /* #FCF5F4 */
+    --color-primary-100: 250, 234, 234; /* #FAEAEA */
+    --color-primary-200: 242, 204, 202; /* #F2CCC A */
+    --color-primary-300: 235, 173, 171; /* #EBADAB */
+    --color-primary-400: 224, 131, 129; /* #E08381 */
+    --color-primary-500: 204, 49, 45;   /* #CC312D (base) */
+    --color-primary-600: 184, 44, 40;   /* #B82C28 */
+    --color-primary-700: 163, 39, 36;   /* #A32724 */
+    --color-primary-800: 143, 34, 31;   /* #8F221F */
+    --color-primary-900: 112, 27, 25;   /* #701B19 */
+
+    /* Secondary (soft pink scale around #FFF4F8) */
+    --color-secondary-0: 255, 255, 255;   /* #FFFFFF */
+    --color-secondary-50: 255, 254, 254;  /* near-white */
+    --color-secondary-100: 255, 252, 253;
+    --color-secondary-200: 255, 250, 252;
+    --color-secondary-300: 255, 247, 250;
+    --color-secondary-400: 255, 245, 249;
+    --color-secondary-500: 255, 244, 248; /* #FFF4F8 (base) */
+    --color-secondary-600: 250, 224, 228; /* gentle rose */
+    --color-secondary-700: 245, 205, 207;
+    --color-secondary-800: 237, 176, 177;
+    --color-secondary-900: 230, 146, 146;
+
+    /* (Optional) Status colors – tweak if you like */
+    --color-success: 16, 163, 74;   /* #10A34A */
+    --color-warning: 245, 158, 11;  /* #F59E0B */
+    --color-error: 220, 38, 38;     /* #DC2626 */
+  }
+
+  /* IRANSans font family (light, regular, bold) */
+  @font-face {
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/public/fonts/IRANSansX-Light.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/public/fonts/IRANSansX-Regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/public/fonts/IRANSansX-Bold.woff2) format("woff2");
+  }
+}
