@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-// Helper to read CSS variables and respect Tailwind's /opacity API
 const withOpacity = (variableName) => {
   return ({ opacityValue } = {}) => {
     if (opacityValue !== undefined) {
@@ -13,7 +12,7 @@ const withOpacity = (variableName) => {
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // scan all source files
+    "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     extend: {

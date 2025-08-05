@@ -1,8 +1,9 @@
-import MainProductsContainer from "./MainProductsContainer";
+import MainBlogContainer from "./MainBlogContainer";
+
 
 const Body = () => (
   <main className="flex-grow">
-    <MainProductsContainer />
+    <MainBlogContainer />
   </main>
 );
 

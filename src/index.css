@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    /* Primary (derived tints/shades around #CC312D) */
+
     --color-primary-50: 252, 245, 244;  /* #FCF5F4 */
     --color-primary-100: 250, 234, 234; /* #FAEAEA */
     --color-primary-200: 242, 204, 202; /* #F2CCC A */
@@ -16,7 +16,6 @@
     --color-primary-800: 143, 34, 31;   /* #8F221F */
     --color-primary-900: 112, 27, 25;   /* #701B19 */
 
-    /* Secondary (soft pink scale around #FFF4F8) */
     --color-secondary-0: 255, 255, 255;   /* #FFFFFF */
     --color-secondary-50: 255, 254, 254;  /* near-white */
     --color-secondary-100: 255, 252, 253;
@@ -29,13 +28,13 @@
     --color-secondary-800: 237, 176, 177;
     --color-secondary-900: 230, 146, 146;
 
-    /* (Optional) Status colors – tweak if you like */
+
     --color-success: 16, 163, 74;   /* #10A34A */
     --color-warning: 245, 158, 11;  /* #F59E0B */
     --color-error: 220, 38, 38;     /* #DC2626 */
   }
 
-  /* IRANSans font family (light, regular, bold) */
+
   @font-face {
     font-family: "iransans";
     font-style: normal;
