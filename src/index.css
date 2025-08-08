@@ -6,7 +6,7 @@
   :root {
 
     --color-primary-50: 252, 245, 244;  /* #FCF5F4 */
-    --color-primary-100: 250, 234, 234; /* #FAEAEA */
+   --color-primary-100: 255, 244, 248;/* #FAEAEA */
     --color-primary-200: 242, 204, 202; /* #F2CCC A */
     --color-primary-300: 235, 173, 171; /* #EBADAB */
     --color-primary-400: 224, 131, 129; /* #E08381 */

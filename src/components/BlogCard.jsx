@@ -15,7 +15,7 @@ const BlogCard = ({ item }) => {
   return (
     <article
       dir="rtl"
-      className="group relative overflow-hidden rounded-[1.25rem] border border-secondary-200 bg-white shadow-sm transition-shadow hover:shadow-md"
+      className="group relative overflow-hidden rounded-[1.25rem] border border-secondary-200 bg-white shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105"
     >
       {/* ▸ image + overlays */}
       <div className="relative">

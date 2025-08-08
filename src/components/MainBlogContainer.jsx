@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const MainBlogContainer = () => {
   return (
-    <section dir="rtl" className="container mx-auto p-6">
+    <section dir="rtl" className="container bg-primary-200/40 shadow-centered-lg shadow-primary-200/50   rounded-t-3xl mx-auto p-6">
       {/* Header */}
       <header className="mb-6">
         <div className="flex items-center justify-center text-center">
