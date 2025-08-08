@@ -6,12 +6,12 @@ const SearchInput = React.memo(function SearchInput({ className = "", inputProps
     <div className={`relative ${className}`}>
       <input
         type="text"
-        placeholder=" ... نام محصول، دسته محصول"
-        className="w-full text-right rounded-full border border-gray-300/60 bg-secondary-50 py-2 pr-4 pl-12 text-sm placeholder:text-gray-400 focus:border-primary-500 focus:outline-none"
+        placeholder="  نام محصول، دسته محصول ..."
+        className="w-full bg-gray-200/40 text-right rounded-full  py-3 pr-5 pl-12 text-sm placeholder:text-gray-600 focus:border-primary-500 focus:outline-none"
         {...inputProps}
       />
       {/* Icon on LEFT for RTL */}
-      <MagnifyingGlassIcon className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-500" />
+      <MagnifyingGlassIcon className="absolute rounded-full bg-white shadow-centered-lg shadow-white p-1 left-1 top-1/2 h-8 w-8 -translate-y-1/2 text-gray-500" />
     </div>
   );
 });

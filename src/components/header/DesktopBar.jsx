@@ -11,7 +11,7 @@ const DesktopBar = React.memo(function DesktopBar() {
      
 
       {/* Right (RTL visual right): brand + search (container = max 50% width) */}
-      <div className="flex items-center gap-4 md:w-1/2 justify-end">
+      <div className="flex items-center  w-full">
         <BrandBlock
           englishLogo={images.englishLogo}
           persianLogo={images.persianLogo}
@@ -22,7 +22,7 @@ const DesktopBar = React.memo(function DesktopBar() {
         </div>
       </div>
        {/* Left: actions + nav */}
-      <div className="flex items-center gap-4 ">
+      <div className="flex items-center w-1/2 gap-4 ">
         <NavLinks />
         <Actions />
       </div>
