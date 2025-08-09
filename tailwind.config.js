@@ -53,10 +53,19 @@ export default {
         center: true,
         padding: "1rem",
       },
+       screens: {
+        '3xl': '1920px', 
+      },
       boxShadow: {
         centered: "0 0 15px rgba(0, 0, 0, 0.1)",
         "centered-lg": "0 0 25px rgba(0, 0, 0, 0.15)",
         'centered-lg-top': '0 -12px 25px -12px rgba(0,0,0,.2)',
+      },
+        maxWidth: {
+        '8xl': '88rem',  // ~1408px
+        '9xl': '96rem',  // ~1536px
+        '10xl': '104rem', // ~1664px
+        '11xl': '112rem', // ~1792px
       },
     },
   },

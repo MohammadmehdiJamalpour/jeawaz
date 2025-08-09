@@ -7,7 +7,7 @@ const SearchInput = React.memo(function SearchInput({ className = "", inputProps
       <input
         type="text"
         placeholder="  نام محصول، دسته محصول ..."
-        className="w-full bg-gray-200/70 text-right rounded-full  py-4 pr-5 lg:py-5 px-6 pl-12 text-sm placeholder:text-gray-600 font-semibold focus:border-primary-500 focus:outline-none"
+        className="w-full bg-gray-200/50 text-right rounded-full  py-4 pr-5 lg:py-5 lg:px-7 px-6 pl-12 text-sm placeholder:text-gray-500 focus:outline outline-none ring-offset-1 focus:outline-primary-300 transition-all duration-200"
         {...inputProps}
       />
       {/* Icon on LEFT for RTL */}
