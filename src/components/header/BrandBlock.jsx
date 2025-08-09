@@ -6,7 +6,7 @@ const BrandBlock = React.memo(function BrandBlock({
   className = "",
 }) {
   return (
-    <div className={`flex flex-col flex-1 items-center justify-center gap-1 ${className}`}>
+    <div className={`flex flex-col  items-center justify-center gap-1 ${className}`}>
       <img
         className="max-h-12 max-md:max-h-10"
         src={englishLogo}

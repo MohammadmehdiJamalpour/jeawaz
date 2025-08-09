@@ -11,7 +11,7 @@ const Actions = React.memo(function Actions() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center justify-end flex-1  gap-2">
       {/* ورود / ثبت نام */}
       <button
         type="button"

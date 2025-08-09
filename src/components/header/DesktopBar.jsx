@@ -11,18 +11,18 @@ const DesktopBar = React.memo(function DesktopBar() {
      
 
       {/* Right (RTL visual right): brand + search (container = max 50% width) */}
-      <div className="flex items-center  w-full">
+      <div className="flex items-center justify-evenly gap md:w-2/3 lg:w-1/2">
         <BrandBlock
           englishLogo={images.englishLogo}
           persianLogo={images.persianLogo}
         />
         {/* Search fills remaining space on the right side */}
-        <div className="flex-1">
+        <div className="w-2/3 ">
           <SearchInput className="w-full" />
         </div>
       </div>
        {/* Left: actions + nav */}
-      <div className="flex items-center w-1/2 gap-4 ">
+      <div className="flex items-center justify-evenly  w-1/2 gap-4 ">
         <NavLinks />
         <Actions />
       </div>
