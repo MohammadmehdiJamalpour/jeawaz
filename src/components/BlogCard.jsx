@@ -15,7 +15,7 @@ const BlogCard = ({ item }) => {
   return (
     <article
       dir="rtl"
-      className="group relative overflow-hidden rounded-[1.25rem] border border-secondary-200 bg-white shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105"
+      className="group relative flex flex-col justify-between  overflow-hidden rounded-[1.25rem] border border-secondary-200 bg-white shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105"
     >
       {/* ▸ image + overlays */}
       <div className="relative">
@@ -36,7 +36,7 @@ const BlogCard = ({ item }) => {
       </div>
 
       {/* ▸ body */}
-      <div className="space-y-2 px-6 pb-5 pt-4">
+      <div className="space-y-2  px-6 pb-5 pt-4">
         <h3 className="text-[17px] font-bold leading-8 text-gray-800">
           {title}
         </h3>
@@ -46,12 +46,12 @@ const BlogCard = ({ item }) => {
       </div>
 
       {/* ▸ footer */}
-      <div className="flex items-center justify-between border-t border-secondary-200 px-6 py-4 text-[13px]">
+      <div className="flex items-center  justify-between  border-t border-secondary-200 px-6 py-4 text-[13px]">
      
 
         {/* تاریخ */}
         <time className="text-gray-500">{releasedAt}</time>
-
+ 
            {/* مطالعه مطلب */}
         <div
      
