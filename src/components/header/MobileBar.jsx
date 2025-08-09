@@ -9,7 +9,7 @@ const MobileBar = React.memo(function MobileBar() {
   return (
     <div className="md:hidden" dir="rtl">
       {/* Top row: cart | brand | categories */}
-      <div className="flex items-center justify-between px-2 pt-4">
+      <div className="flex items-center mb-2 justify-between px-2 pt-4">
         <CircleBtn className="border-primary-400/40 " label="دسته‌بندی‌ها">
           <Squares2X2Icon className="h-6 w-6 text-primary-500" />
         </CircleBtn>
@@ -30,6 +30,6 @@ const MobileBar = React.memo(function MobileBar() {
       </div>
     </div>
   );
-});
+}); 
 
 export default MobileBar;
